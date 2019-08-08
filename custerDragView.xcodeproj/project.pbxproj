@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C682865204BEA0E5190290E9 /* libPods-custerDragView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF017503E22C14495A7FFD1 /* libPods-custerDragView.a */; };
 		F44BA94C22EAEE66007BA56D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA94B22EAEE66007BA56D /* AppDelegate.m */; };
 		F44BA94F22EAEE66007BA56D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA94E22EAEE66007BA56D /* ViewController.m */; };
-		F44BA95222EAEE66007BA56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44BA95022EAEE66007BA56D /* Main.storyboard */; };
-		F44BA95522EAEE66007BA56D /* custerDragView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F44BA95322EAEE66007BA56D /* custerDragView.xcdatamodeld */; };
 		F44BA95722EAEE67007BA56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44BA95622EAEE67007BA56D /* Assets.xcassets */; };
-		F44BA95A22EAEE67007BA56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44BA95822EAEE67007BA56D /* LaunchScreen.storyboard */; };
 		F44BA95D22EAEE67007BA56D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA95C22EAEE67007BA56D /* main.m */; };
 		F44BA96722EAEE67007BA56D /* custerDragViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA96622EAEE67007BA56D /* custerDragViewTests.m */; };
 		F44BA97222EAEE67007BA56D /* custerDragViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA97122EAEE67007BA56D /* custerDragViewUITests.m */; };
+		F452472522EECB0300369FE0 /* ZCPlaceTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F452472422EECB0300369FE0 /* ZCPlaceTextView.m */; };
+		F452472822EECB8500369FE0 /* ZCHotelDrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F452472722EECB8500369FE0 /* ZCHotelDrageView.m */; };
+		F4CA33B322F2811500640CF9 /* ZCHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33B122F2811500640CF9 /* ZCHotelViewController.m */; };
+		F4CA33B422F2811500640CF9 /* ZCHotelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CA33B222F2811500640CF9 /* ZCHotelViewController.xib */; };
+		F4CA33B822F289DB00640CF9 /* UIView+ZCTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CA33B722F289DB00640CF9 /* UIView+ZCTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C76E7C3EE343982599D7329 /* Pods-custerDragView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custerDragView.release.xcconfig"; path = "Target Support Files/Pods-custerDragView/Pods-custerDragView.release.xcconfig"; sourceTree = "<group>"; };
+		7EF017503E22C14495A7FFD1 /* libPods-custerDragView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-custerDragView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E4B164EBC195BD482A5DC9 /* Pods-custerDragView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custerDragView.debug.xcconfig"; path = "Target Support Files/Pods-custerDragView/Pods-custerDragView.debug.xcconfig"; sourceTree = "<group>"; };
 		F44BA94722EAEE66007BA56D /* custerDragView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custerDragView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44BA94A22EAEE66007BA56D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F44BA94B22EAEE66007BA56D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F44BA94D22EAEE66007BA56D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F44BA94E22EAEE66007BA56D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F44BA95122EAEE66007BA56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F44BA95422EAEE66007BA56D /* custerDragView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = custerDragView.xcdatamodel; sourceTree = "<group>"; };
 		F44BA95622EAEE67007BA56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F44BA95922EAEE67007BA56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F44BA95B22EAEE67007BA56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44BA95C22EAEE67007BA56D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F44BA96222EAEE67007BA56D /* custerDragViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custerDragViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +56,16 @@
 		F44BA96D22EAEE67007BA56D /* custerDragViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custerDragViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44BA97122EAEE67007BA56D /* custerDragViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = custerDragViewUITests.m; sourceTree = "<group>"; };
 		F44BA97322EAEE67007BA56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F452472322EECB0300369FE0 /* ZCPlaceTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZCPlaceTextVi\U0010ew.h"; sourceTree = "<group>"; };
+		F452472422EECB0300369FE0 /* ZCPlaceTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZCPlaceTextVi\U0010ew.m"; sourceTree = "<group>"; };
+		F452472622EECB8500369FE0 /* ZCHotelDrageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCHotelDrageView.h; sourceTree = "<group>"; };
+		F452472722EECB8500369FE0 /* ZCHotelDrageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCHotelDrageView.m; sourceTree = "<group>"; };
+		F48C361322EEF555004A00EC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F4CA33B022F2811500640CF9 /* ZCHotelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCHotelViewController.h; sourceTree = "<group>"; };
+		F4CA33B122F2811500640CF9 /* ZCHotelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCHotelViewController.m; sourceTree = "<group>"; };
+		F4CA33B222F2811500640CF9 /* ZCHotelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZCHotelViewController.xib; sourceTree = "<group>"; };
+		F4CA33B622F289DB00640CF9 /* UIView+ZCTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCTools.h"; sourceTree = "<group>"; };
+		F4CA33B722F289DB00640CF9 /* UIView+ZCTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCTools.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C682865204BEA0E5190290E9 /* libPods-custerDragView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB3AD1681A4D6AD5F97A9FC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E4B164EBC195BD482A5DC9 /* Pods-custerDragView.debug.xcconfig */,
+				5C76E7C3EE343982599D7329 /* Pods-custerDragView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F28378B702A59E42C56D58CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF017503E22C14495A7FFD1 /* libPods-custerDragView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F44BA93E22EAEE66007BA56D = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +118,8 @@
 				F44BA96522EAEE67007BA56D /* custerDragViewTests */,
 				F44BA97022EAEE67007BA56D /* custerDragViewUITests */,
 				F44BA94822EAEE66007BA56D /* Products */,
+				BB3AD1681A4D6AD5F97A9FC2 /* Pods */,
+				F28378B702A59E42C56D58CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +136,9 @@
 		F44BA94922EAEE66007BA56D /* custerDragView */ = {
 			isa = PBXGroup;
 			children = (
-				F44BA94A22EAEE66007BA56D /* AppDelegate.h */,
-				F44BA94B22EAEE66007BA56D /* AppDelegate.m */,
-				F44BA94D22EAEE66007BA56D /* ViewController.h */,
-				F44BA94E22EAEE66007BA56D /* ViewController.m */,
-				F44BA95022EAEE66007BA56D /* Main.storyboard */,
-				F44BA95622EAEE67007BA56D /* Assets.xcassets */,
-				F44BA95822EAEE67007BA56D /* LaunchScreen.storyboard */,
-				F44BA95B22EAEE67007BA56D /* Info.plist */,
-				F44BA95C22EAEE67007BA56D /* main.m */,
-				F44BA95322EAEE66007BA56D /* custerDragView.xcdatamodeld */,
+				F44BA98122EAF5A3007BA56D /* Features */,
+				F4CA33B522F2855C00640CF9 /* categories */,
+				F44BA97F22EAF074007BA56D /* AppEntry */,
 			);
 			path = custerDragView;
 			sourceTree = "<group>";
@@ -135,6 +161,92 @@
 			path = custerDragViewUITests;
 			sourceTree = "<group>";
 		};
+		F44BA97F22EAF074007BA56D /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				F44BA94A22EAEE66007BA56D /* AppDelegate.h */,
+				F44BA94B22EAEE66007BA56D /* AppDelegate.m */,
+				F44BA95B22EAEE67007BA56D /* Info.plist */,
+				F44BA95C22EAEE67007BA56D /* main.m */,
+				F44BA95622EAEE67007BA56D /* Assets.xcassets */,
+				F48C361322EEF555004A00EC /* PrefixHeader.pch */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		F44BA98122EAF5A3007BA56D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F452472022EEC9C000369FE0 /* hotelDrageViewController */,
+				F44BA98222EAF5E4007BA56D /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F44BA98222EAF5E4007BA56D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F44BA98422EAF604007BA56D /* View */,
+				F44BA98322EAF5F9007BA56D /* viewContreller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F44BA98322EAF5F9007BA56D /* viewContreller */ = {
+			isa = PBXGroup;
+			children = (
+				F44BA94D22EAEE66007BA56D /* ViewController.h */,
+				F44BA94E22EAEE66007BA56D /* ViewController.m */,
+			);
+			path = viewContreller;
+			sourceTree = "<group>";
+		};
+		F44BA98422EAF604007BA56D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F452472022EEC9C000369FE0 /* hotelDrageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F452472222EEC9EB00369FE0 /* ViewController */,
+				F452472122EEC9E400369FE0 /* view */,
+			);
+			path = hotelDrageViewController;
+			sourceTree = "<group>";
+		};
+		F452472122EEC9E400369FE0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F452472322EECB0300369FE0 /* ZCPlaceTextView.h */,
+				F452472422EECB0300369FE0 /* ZCPlaceTextView.m */,
+				F452472622EECB8500369FE0 /* ZCHotelDrageView.h */,
+				F452472722EECB8500369FE0 /* ZCHotelDrageView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F452472222EEC9EB00369FE0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4CA33B022F2811500640CF9 /* ZCHotelViewController.h */,
+				F4CA33B122F2811500640CF9 /* ZCHotelViewController.m */,
+				F4CA33B222F2811500640CF9 /* ZCHotelViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F4CA33B522F2855C00640CF9 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				F4CA33B622F289DB00640CF9 /* UIView+ZCTools.h */,
+				F4CA33B722F289DB00640CF9 /* UIView+ZCTools.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F44BA97622EAEE67007BA56D /* Build configuration list for PBXNativeTarget "custerDragView" */;
 			buildPhases = (
+				927A4307894166E86F7FA4C9 /* [CP] Check Pods Manifest.lock */,
 				F44BA94322EAEE66007BA56D /* Sources */,
 				F44BA94422EAEE66007BA56D /* Frameworks */,
 				F44BA94522EAEE66007BA56D /* Resources */,
+				F3A33719EF82358C7A9FA343 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44BA95A22EAEE67007BA56D /* LaunchScreen.storyboard in Resources */,
+				F4CA33B422F2811500640CF9 /* ZCHotelViewController.xib in Resources */,
 				F44BA95722EAEE67007BA56D /* Assets.xcassets in Resources */,
-				F44BA95222EAEE66007BA56D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +373,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		927A4307894166E86F7FA4C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-custerDragView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A33719EF82358C7A9FA343 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-custerDragView/Pods-custerDragView-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-custerDragView/Pods-custerDragView-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-custerDragView/Pods-custerDragView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F44BA94322EAEE66007BA56D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F44BA94F22EAEE66007BA56D /* ViewController.m in Sources */,
-				F44BA95522EAEE66007BA56D /* custerDragView.xcdatamodeld in Sources */,
+				F452472822EECB8500369FE0 /* ZCHotelDrageView.m in Sources */,
+				F4CA33B322F2811500640CF9 /* ZCHotelViewController.m in Sources */,
+				F4CA33B822F289DB00640CF9 /* UIView+ZCTools.m in Sources */,
 				F44BA95D22EAEE67007BA56D /* main.m in Sources */,
 				F44BA94C22EAEE66007BA56D /* AppDelegate.m in Sources */,
+				F452472522EECB0300369FE0 /* ZCPlaceTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,25 +460,6 @@
 			targetProxy = F44BA96E22EAEE67007BA56D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F44BA95022EAEE66007BA56D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F44BA95122EAEE66007BA56D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F44BA95822EAEE67007BA56D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F44BA95922EAEE67007BA56D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F44BA97422EAEE67007BA56D /* Debug */ = {
@@ -437,11 +576,13 @@
 		};
 		F44BA97722EAEE67007BA56D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E4B164EBC195BD482A5DC9 /* Pods-custerDragView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49S365C6A7;
-				INFOPLIST_FILE = custerDragView/Info.plist;
+				GCC_PREFIX_HEADER = /Users/zhangchuangchuang/Desktop/Github_project/custerDragView/custerDragView/AppEntry/PrefixHeader.pch;
+				INFOPLIST_FILE = /Users/zhangchuangchuang/Desktop/Github_project/custerDragView/custerDragView/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +595,13 @@
 		};
 		F44BA97822EAEE67007BA56D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C76E7C3EE343982599D7329 /* Pods-custerDragView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49S365C6A7;
-				INFOPLIST_FILE = custerDragView/Info.plist;
+				GCC_PREFIX_HEADER = /Users/zhangchuangchuang/Desktop/Github_project/custerDragView/custerDragView/AppEntry/PrefixHeader.pch;
+				INFOPLIST_FILE = /Users/zhangchuangchuang/Desktop/Github_project/custerDragView/custerDragView/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,19 +726,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F44BA95322EAEE66007BA56D /* custerDragView.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F44BA95422EAEE66007BA56D /* custerDragView.xcdatamodel */,
-			);
-			currentVersion = F44BA95422EAEE66007BA56D /* custerDragView.xcdatamodel */;
-			path = custerDragView.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F44BA93F22EAEE66007BA56D /* Project object */;
 }
