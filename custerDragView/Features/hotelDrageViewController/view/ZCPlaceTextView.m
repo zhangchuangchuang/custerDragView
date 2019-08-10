@@ -17,6 +17,7 @@
     
     // 监听文字的改变
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textDidChange:) name:UITextViewTextDidChangeNotification object:self];
+    //你好
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
